@@ -1,0 +1,133 @@
+body{
+	background-color: #F2E9E4;
+	font-family: "Poppins";
+}
+.logo{
+	height: 80px;
+	width: 175px;
+}
+.top{
+	width: 350px;
+	height: 405px;
+	display: inline-block;
+	padding: 25px 10px;
+	align-items: center;
+}
+.navbar {
+	overflow: hidden;
+}
+.navbar {
+	text-decoration: none;
+	float: left;
+	flex-direction: row;
+	padding: 14px 16px;
+	text-align: center;
+	display: block;
+}
+@media screen and (max-width: 600px) {
+.navbar a {
+	float: none;
+	width: 100%;
+}
+}
+.navbar a:hover{
+	text-decoration: none;
+	color: #4A4E69;
+}
+#novedades .product{
+	 padding: 20px;
+}
+.slogan{
+	 color: #22223B;
+}
+.slogan h1 {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#tituloTop{
+	align-items: center;
+}
+.top{
+	width: 300px;
+	height: 305px;
+	display: inline-block;
+	padding: 25px 10px;
+	align-items: center;
+}
+.prod{
+	color: #7f4f24;
+	list-style: inside upper-latin;
+}
+#productImage img{
+	width: 50px;
+	height: 65px;
+	display: inline-block;
+	padding: 25px 10px;
+	align-items: center;
+}
+#gracias{
+	color:#936639;
+	text-align: center;
+}
+.cuadro{
+	color: #d81159;
+}
+#lista{
+	color: #62929e;
+	list-style-position: inside;
+}
+.devolucion{
+	list-style-type: upper-latin;
+
+}
+.devoluciones{
+	color:#414833;
+	font-weight: 500;
+}
+#contacto{
+	color: #7f4f24;
+	text-align: left;
+	font-weight: 500;
+}
+.contactoLista{
+	color: #936639;
+	line-height: 2.2;
+}
+.contenedorContacto{
+	border-radius: 4px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 100px;
+	width: 400px;
+	border-style: solid;
+	border-color: black;
+	box-sizing: border-box;
+	background-color: white; 
+	box-shadow: 7px 15px 20px;
+}	
+.botones{
+	width: 100px;
+	height: 42px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.botones:hover{
+	cursor: pointer;
+	transform: translateY(-2px);
+	transition: all cubic-bezier(0.215, 0.650, 0.355, 1);
+}
+.botones:active{
+	transform: translateY(3px);
+}
+.listadoProductos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar-light bg-light{
+	background-color: #22223B;
+}
